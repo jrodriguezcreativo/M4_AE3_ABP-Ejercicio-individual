@@ -46,4 +46,6 @@ M4_AE3_ABP-Ejercicio individual
 2. Hacer clic en los botones **Like** de las publicaciones.  
 3. Observar cómo aumenta dinámicamente el contador de cada publicación.  
 
+[ver sitio](https://jrodriguezcreativo.github.io/M4_AE3_ABP-Ejercicio-individual/)
+
 **Autor**: Jorge Rodriguez
