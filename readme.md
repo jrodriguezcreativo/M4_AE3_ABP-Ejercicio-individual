@@ -29,9 +29,15 @@ Se aplica manipulación del **DOM con JavaScript** para actualizar dinámicament
 ### Estructura del proyecto
 ```
 M4_AE3_ABP-Ejercicio individual
+|-- assets
+  |-- css
+    │-- style.css
+  |-- img
+    |-- fotoPerfil.jpeg
+  |-- js
+    |-- main.js
+|-- favicon.ico
 │-- index.html
-│-- styles.css
-│-- main.js
 │-- readme.md
 ```
 

@@ -1,0 +1,116 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #F0EBF2;
+    color: #070B15;
+}
+
+.nav {
+  background: linear-gradient(90deg, #6A357F, #2CC389);
+  color: #f5f6f7;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Tarjeta de perfil */
+.perfil {
+  width: 25%;
+  background: #f5f6f7;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 240px;    
+  aspect-ratio: 1 / 1; 
+  overflow: hidden;
+  margin: 0 auto 0.75rem;
+  border-radius: 50%; 
+}
+
+/* Imagen dentro del avatar */
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.publicaciones {
+  width: 75%;
+}
+
+/* Posts */
+.post {
+  background: #f5f6f7;
+  padding: 0.9rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 6px rgba(0,0,0,0.06);
+}
+
+
+.like-row {
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* Botón Like */
+.like-btn {
+  background: linear-gradient(90deg, #6A357F, #2CC389);
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  background: linear-gradient(90deg, #6A357Faa, #2CC389aa);
+	color: #fafbfcaa;
+}
+
+/* Contador */
+.like-count {
+  font-weight: 700;
+  min-width: 24px;
+  text-align: center;
+}
+
+
+.like-label {
+  color: #555;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .perfil, 
+  .publicaciones {
+    width: 100%; 
+  }
+
+  .perfil {
+    margin-bottom: 1rem; 
+  }
+}
